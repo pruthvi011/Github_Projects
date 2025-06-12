@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Span</title>
+    <link rel="stylesheet" href="span.css">
+</head>
+<body>
+    <table border="3">
+        <caption>Row Span</caption>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">Web Design</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>CSS</td>    
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>React</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Backend</td>
+                <td>Node JS</td>
+            </tr>
+            <tr>
+                <td>Express JS</td>
+            </tr>
+            <tr>
+                <td>Mongo DB</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <table border="3">
+        <caption>Column Span</caption>
+        <thead>
+            <tr>
+                <th colspan="8">Course and Details</th>
+            </tr>
+            <tr>
+                <th colspan="4">Web Design</th>
+                <th colspan="3">Backend</th>  
+            
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+                <td>React</td>
+                <td>Node Js</td>
+                <td>Express JS</td>
+                <td>Mongo DB</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+
+
+    
